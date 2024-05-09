@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="32700.99.1234" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22684"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="150" id="KGk-i7-Jjw" customClass="TableViewCell" customModule="tableview" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="405" height="150"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="405" height="150"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="2jq-oj-tBH">
+                        <rect key="frame" x="10" y="10" width="130" height="130"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="130" id="3VN-YW-bfP"/>
+                            <constraint firstAttribute="height" constant="130" id="yr8-rP-m5F"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="에어팟 맥스 스페이스 그레이 판매합니다." lineBreakMode="clip" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aO4-Dj-q46">
+                        <rect key="frame" x="150" y="10" width="245" height="50"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="50" id="AIp-aR-n8H"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="5" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sF1-UQ-gOe">
+                        <rect key="frame" x="325" y="119" width="70" height="21"/>
+                        <color key="tintColor" systemColor="systemGrayColor"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="70" id="Mj5-N2-puO"/>
+                            <constraint firstAttribute="height" constant="21" id="flq-zw-J8b"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                        <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="서울특별시 송파구 6일 전" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xAj-Lo-ggN">
+                        <rect key="frame" x="150" y="60" width="125" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="15" id="D9o-98-dbh"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                        <color key="textColor" systemColor="systemGrayColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="490,000원" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="goE-GY-dbz">
+                        <rect key="frame" x="150" y="77" width="81" height="28"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="28" id="FXK-AZ-viK"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="2jq-oj-tBH" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="10" id="0P1-bS-23X"/>
+                    <constraint firstItem="xAj-Lo-ggN" firstAttribute="leading" secondItem="2jq-oj-tBH" secondAttribute="trailing" constant="10" id="7em-pg-ZUT"/>
+                    <constraint firstAttribute="trailing" secondItem="aO4-Dj-q46" secondAttribute="trailing" constant="10" id="FQj-i6-Rlf"/>
+                    <constraint firstAttribute="bottom" secondItem="2jq-oj-tBH" secondAttribute="bottom" constant="10" id="KiJ-LT-Uof"/>
+                    <constraint firstItem="xAj-Lo-ggN" firstAttribute="top" secondItem="aO4-Dj-q46" secondAttribute="bottom" id="OOj-UK-DVj"/>
+                    <constraint firstItem="2jq-oj-tBH" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="10" id="hh8-cB-SeN"/>
+                    <constraint firstAttribute="bottom" secondItem="sF1-UQ-gOe" secondAttribute="bottom" constant="10" id="ljY-4g-Mdq"/>
+                    <constraint firstItem="goE-GY-dbz" firstAttribute="leading" secondItem="2jq-oj-tBH" secondAttribute="trailing" constant="10" id="mgb-Cd-EIt"/>
+                    <constraint firstItem="goE-GY-dbz" firstAttribute="top" secondItem="aO4-Dj-q46" secondAttribute="bottom" constant="15" id="mmK-mV-3cP"/>
+                    <constraint firstItem="aO4-Dj-q46" firstAttribute="leading" secondItem="2jq-oj-tBH" secondAttribute="trailing" constant="10" id="p0u-PW-Yz4"/>
+                    <constraint firstItem="aO4-Dj-q46" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="10" id="q2s-Lz-R5V"/>
+                    <constraint firstAttribute="trailing" secondItem="sF1-UQ-gOe" secondAttribute="trailing" constant="10" id="xiC-rm-Is9"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="imageViewFeed" destination="2jq-oj-tBH" id="Pp5-7v-rUy"/>
+                <outlet property="labelFeed" destination="aO4-Dj-q46" id="ei4-IZ-fvE"/>
+                <outlet property="labelLike" destination="sF1-UQ-gOe" id="7jC-sr-7BC"/>
+                <outlet property="labelPlace" destination="xAj-Lo-ggN" id="I9d-TD-DLc"/>
+                <outlet property="labelPrice" destination="goE-GY-dbz" id="hon-jo-1KU"/>
+            </connections>
+            <point key="canvasLocation" x="127.48091603053435" y="28.169014084507044"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <systemColor name="systemGrayColor">
+            <color red="0.5568627451" green="0.5568627451" blue="0.57647058819999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
